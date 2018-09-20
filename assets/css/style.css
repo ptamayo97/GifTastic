@@ -1,0 +1,15 @@
+
+.item {
+   float: left;
+       
+}
+
+/* p{
+    content:"";
+    clear: both;
+    display: flex;
+} */
+
+.button {
+    margin: 2px 5px;
+}
