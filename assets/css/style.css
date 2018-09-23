@@ -1,15 +1,62 @@
 
+html {
+    background: #7caeff;
+}
+
+body {
+    margin: 0 25%;
+}
+
+header {
+    background: #ffffff;
+    border: 2px solid black;
+    margin: 15px 0;
+}
+
+.main {
+    background: #ffffff;
+    border: 2px solid black;
+}
+
+.title {
+    font-size: 50px;
+    text-align: center;
+    padding: 15px;  
+    font-weight: bold;
+}
+
 .item {
-   float: left;
-       
+    float: left;
+    margin: 10px 10px 0px 0px;
 }
 
-/* p{
-    content:"";
-    clear: both;
+.btnLabel {
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+#images {
+    background-color: #ffffff;
+}
+
+#searchBar {
+    margin: 5px;
+    border: 2px solid black;
+}
+
+form {
     display: flex;
-} */
-
-.button {
-    margin: 2px 5px;
+    justify-content: flex-end;
+    margin: 5px;
 }
+
+button {
+    margin:  5px;
+    background: #b6b6b6;
+    color: black;
+    border: 2px outset black;
+}
+
+

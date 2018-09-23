@@ -1,6 +1,6 @@
 
 
-var topics = ["league of legends", "world of warcraft", "counter strike", "overwatch", "skyrim", "gta v"]
+var topics = ["world of warcraft", "counter strike", "overwatch", "elder scrolls", "league of legends", "mortal combat", "runescape", "super mario", "legend of zelda", "call of duty"]
 
 console.log(topics);
 
@@ -14,6 +14,7 @@ function renderBtn() {
         
     }
 }
+
 renderBtn();
 
 function displayGif() {
@@ -68,9 +69,10 @@ function displayGif() {
         });
         
 }
+
 // 
 // 
-// Creates new button
+// Creates new buttons  
 // 
 // 
 

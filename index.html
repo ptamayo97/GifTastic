@@ -11,15 +11,25 @@
 </head>
 
 <body>
-    <div class="buttons"></div>
 
-    <form name="seachForm">
-        <!-- <label for="search">Add a ...</label><br> -->
-        <input type="text" id="searchBar" placeholder="Add a game">    
-        <button id="searchBtn">Submit</button>
-    </form>
+    <header>
+        <div class="title">
+            Video Game Gif Generator
+        </div>
+    </header>
+    <div class="main">
+        <div class="btnLabel">Video Games</div>
 
-    <div id="images"></div>
+        <div class="buttons"></div>
+
+        <form name="seachForm">
+            <input type="text" id="searchBar" placeholder="Add a video game tag">
+            <button id="searchBtn">Create</button>
+        </form>
+    </div>
+    <div class="imgContainer">
+        <div id="images"></div>
+    </div>
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     <script src="assets/javascript/app.js"></script>
 </body>
